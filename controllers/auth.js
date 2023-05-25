@@ -30,7 +30,7 @@ const login = async (req, res) => {
   if (!passwordCompare) throw HttpError(401, "Invalid password");
   const payload = { id: user.id };
   const { SECRET_KEY } = process.env;
-  const { _id: id, name, role } = user;
+  const { _id: id, name, address, phone, role } = user;
   const token = jwt.sign(payload, SECRET_KEY, { expiresIn: "161h" });
   await Users.findByIdAndUpdate(id, { token });
   res.json({
