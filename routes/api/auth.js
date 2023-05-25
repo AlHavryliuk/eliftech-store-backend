@@ -3,6 +3,7 @@ import {
   getCurrentCtrl,
   loginCtrl,
   logoutCtrl,
+  patchUserDataCtrl,
   registerCtrl,
 } from "../../controllers/auth.js";
 import { authenticate } from "../../middlewares/authenticate.js";
