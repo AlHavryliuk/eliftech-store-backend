@@ -115,8 +115,12 @@ const patchUserData = async (req, res) => {
   if (address) {
     await Users.findByIdAndUpdate(id, { address });
   }
+  const { address: currentAddress, phone: currentPhone } = await Users.findById(
+    id
+  );
   res.status(201).json({
-    message: "Success",
+    address: currentAddress,
+    phone: currentPhone,
   });
 };
 
