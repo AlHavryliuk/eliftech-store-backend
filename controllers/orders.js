@@ -24,7 +24,7 @@ const postOrder = async (req, res) => {
   if (!items.length) throw HttpError(400, "Items is empty");
   const totalPrice = items.reduce((acc, item) => {
     const value = +item.price * +item.count;
-    acc + value;
+    return acc + value;
   }, 0);
   const correctPrice = totalPrice.toFixed(2);
   const order = await Orders.create({ userId, items, correctPrice });
