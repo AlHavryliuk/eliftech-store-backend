@@ -1,7 +1,6 @@
 import HttpError from "../helpers/HttpError.js";
 import ctrlWrapper from "../helpers/ctrlWrapper.js";
 import { Orders } from "../models/orders.js";
-import { Stores } from "../models/stores.js";
 
 const getOrders = async (req, res) => {
   const { _id: userId } = req.user;
@@ -14,7 +13,7 @@ const getOrders = async (req, res) => {
   const orders = await Orders.find(filter, "", {
     skip,
     limit,
-  }).populate("storeId", "name");
+  });
   res.json({ orders, totalOrders: Math.ceil(totalOrders / limit) });
 };
 
