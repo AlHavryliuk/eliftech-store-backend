@@ -24,8 +24,12 @@ const postOrder = async (req, res) => {
   const store = await Stores.findById(storeId);
   if (!store) throw HttpError(400, "Unknown store");
   if (!items.length) throw HttpError(400, "Items is empty");
-  const totalPrice = items.reduce((acc, item) => acc + item.price, 0);
-  const order = await Orders.create({ userId, storeId, items, totalPrice });
+  const totalPrice = items.reduce((acc, item) => {
+    const value = +item.price * +item.count;
+    acc + value;
+  }, 0);
+  const correctPrice = totalPrice.toFixed(2);
+  const order = await Orders.create({ userId, storeId, items, correctPrice });
   res.status(201).json(order);
 };
 

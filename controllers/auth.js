@@ -33,6 +33,7 @@ const login = async (req, res) => {
   const { _id: id, name, address, phone, role } = user;
   const token = jwt.sign(payload, SECRET_KEY, { expiresIn: "161h" });
   await Users.findByIdAndUpdate(id, { token });
+
   res.json({
     id,
     name,
@@ -101,8 +102,27 @@ const getCurrent = async (req, res) => {
   });
 };
 
+const patchUserData = async (req, res) => {
+  const { _id: id } = req.user;
+  const { address = null, phone = null } = req.body;
+  if (phone) {
+    const phoneIsAlreadyAdded = await Users.findOne({ phone });
+    if (phoneIsAlreadyAdded) throw HttpError(409, "Phone is already added");
+    else {
+      await Users.findByIdAndUpdate(id, { phone });
+    }
+  }
+  if (address) {
+    await Users.findByIdAndUpdate(id, { address });
+  }
+  res.status(201).json({
+    message: "Success",
+  });
+};
+
 export const registerCtrl = ctrlWrapper(register);
 export const loginCtrl = ctrlWrapper(login);
 export const getCurrentCtrl = ctrlWrapper(getCurrent);
 export const logoutCtrl = ctrlWrapper(logout);
 export const googleAuthCtrl = ctrlWrapper(googleAuth);
+export const patchUserDataCtrl = ctrlWrapper(patchUserData);
