@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Buffet",
+    "backdrop": "https://example.com/tasty-burgers-backdrop.jpg",
+    "foodList": [
+      {
+        "name": "Bowarskaya Pizza",
+        "price": 4.99,
+        "image": "null"
+      },
+      {
+        "name": "Meat Pizza",
+        "price": 5.99,
+        "image": "null"
+      },
+      {
+        "name": "Okroshka ",
+        "price": 6.99,
+        "image": "null"
+      },
+      {
+        "name": "Veggie Burger",
+        "price": 3.99,
+        "image": "null"
+      },
+      {
+        "name": "Double Bacon Cheeseburger",
+        "price": 7.99,
+        "image": "null"
+      },
+      {
+        "name": "Fish Fillet Sandwich",
+        "price": 4.99,
+        "image": "null"
+      },
+      {
+        "name": "Mushroom Swiss Burger",
+        "price": 6.99,
+        "image": "null"
+      },
+      {
+        "name": "Grilled Chicken Wrap",
+        "price": 5.99,
+        "image": "null"
+      },
+      {
+        "name": "Onion Rings",
+        "price": 2.99,
+        "image": "null"
+      }
+    ]
+  },
+  {
+    "name": "Tasty Burgers",
+    "backdrop": "https://example.com/tasty-burgers-backdrop.jpg",
+    "foodList": [
+      {
+        "name": "Classic Cheeseburger",
+        "price": 4.99,
+        "image": "null"
+      },
+      {
+        "name": "Spicy Chicken Sandwich",
+        "price": 5.99,
+        "image": "null"
+      },
+      {
+        "name": "BBQ Bacon Burger",
+        "price": 6.99,
+        "image": "null"
+      },
+      {
+        "name": "Veggie Burger",
+        "price": 3.99,
+        "image": "null"
+      },
+      {
+        "name": "Double Bacon Cheeseburger",
+        "price": 7.99,
+        "image": "null"
+      },
+      {
+        "name": "Fish Fillet Sandwich",
+        "price": 4.99,
+        "image": "null"
+      },
+      {
+        "name": "Mushroom Swiss Burger",
+        "price": 6.99,
+        "image": "null"
+      },
+      {
+        "name": "Grilled Chicken Wrap",
+        "price": 5.99,
+        "image": "null"
+      },
+      {
+        "name": "Onion Rings",
+        "price": 2.99,
+        "image": "null"
+      }
+    ]
+  },
+  {
+    "name": "Crispy Fried Chicken",
+    "backdrop": "https://example.com/crispy-fried-chicken-backdrop.jpg",
+    "foodList": [
+      {
+        "name": "Original Recipe Chicken",
+        "price": 9.99,
+        "image": "null"
+      },
+      {
+        "name": "Hot and Spicy Wings",
+        "price": 7.99,
+        "image": "null"
+      },
+      {
+        "name": "Crispy Chicken Tenders",
+        "price": 6.99,
+        "image": "null"
+      },
+      {
+        "name": "Chicken Popcorn",
+        "price": 4.99,
+        "image": "null"
+      },
+      {
+        "name": "Honey BBQ Chicken",
+        "price": 8.99,
+        "image": "null"
+      },
+      {
+        "name": "Spicy Drumsticks",
+        "price": 5.99,
+        "image": "null"
+      },
+      {
+        "name": "Cajun Chicken Sandwich",
+        "price": 6.99,
+        "image": "null"
+      },
+      {
+        "name": "Chicken Caesar Salad",
+        "price": 7.99,
+        "image": "null"
+      }
+    ]
+  },
+  {
+    "name": "Pizza Delight",
+    "backdrop": "https://example.com/pizza-delight-backdrop.jpg",
+    "foodList": [
+      {
+        "name": "Pepperoni Pizza",
+        "price": 11.99,
+        "image": "null"
+      },
+      {
+        "name": "Vegetarian Pizza",
+        "price": 10.99,
+        "image": "null"
+      },
+      {
+        "name": "Hawaiian Pizza",
+        "price": 12.99,
+        "image": "null"
+      },
+      {
+        "name": "BBQ Chicken Pizza",
+        "price": 13.99,
+        "image": "null"
+      },
+      {
+        "name": "Margherita Pizza",
+        "price": 9.99,
+        "image": "null"
+      },
+      {
+        "name": "Meat Lovers Pizza",
+        "price": 14.99,
+        "image": "null"
+      },
+      {
+        "name": "Supreme Pizza",
+        "price": 12.99,
+        "image": "null"
+      }
+    ]
+  },
+  {
+    "name": "Sweet Treats",
+    "backdrop": "https://example.com/sweet-treats-backdrop.jpg",
+    "foodList": [
+      {
+        "name": "Chocolate Chip Cookies",
+        "price": 2.99,
+        "image": "null"
+      },
+      {
+        "name": "Vanilla Cupcake",
+        "price": 3.99,
+        "image": "null"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "price": 5.99,
+        "image": "null"
+      },
+      {
+        "name": "Double Chocolate Brownie",
+        "price": 4.99,
+        "image": "null"
+      },
+      {
+        "name": "Mint Chocolate Chip Ice Cream",
+        "price": 6.99,
+        "image": "null"
+      },
+      {
+        "name": "Caramel Popcorn",
+        "price": 3.99,
+        "image": "null"
+      },
+      {
+        "name": "Fruit Parfait",
+        "price": 4.99,
+        "image": "null"
+      }
+    ]
+  },
+  {
+    "name": "Fresh Greens",
+    "backdrop": "https://example.com/fresh-greens-backdrop.jpg",
+    "foodList": [
+      {
+        "name": "Caesar Salad",
+        "price": 7.99,
+        "image": "null"
+      },
+      {
+        "name": "Greek Salad",
+        "price": 8.99,
+        "image": "null"
+      },
+      {
+        "name": "Caprese Salad",
+        "price": 9.99,
+        "image": "null"
+      },
+      {
+        "name": "Spinach Salad",
+        "price": 6.99,
+        "image": "null"
+      },
+      {
+        "name": "Cobb Salad",
+        "price": 8.99,
+        "image": "null"
+      },
+      {
+        "name": "Chicken Caesar Salad",
+        "price": 9.99,
+        "image": "null"
+      },
+      {
+        "name": "Mediterranean Salad",
+        "price": 7.99,
+        "image": "null"
+      }
+    ]
+  },
+  {
+    "name": "Fresh Squeezed",
+    "backdrop": "https://example.com/fresh-squeezed-backdrop.jpg",
+    "foodList": [
+      {
+        "name": "Orange Juice",
+        "price": 3.99,
+        "image": "null"
+      },
+      {
+        "name": "Apple Juice",
+        "price": 3.99,
+        "image": "null"
+      },
+      {
+        "name": "Grapefruit Juice",
+        "price": 4.99,
+        "image": "null"
+      },
+      {
+        "name": "Lemonade",
+        "price": 2.99,
+        "image": "null"
+      },
+      {
+        "name": "Watermelon Juice",
+        "price": 4.99,
+        "image": "null"
+      },
+      {
+        "name": "Pineapple Juice",
+        "price": 3.99,
+        "image": "null"
+      },
+      {
+        "name": "Cranberry Juice",
+        "price": 3.99,
+        "image": "null"
+      }
+    ]
+  }
+]
