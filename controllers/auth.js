@@ -6,7 +6,7 @@ import ctrlWrapper from "../helpers/ctrlWrapper.js";
 import { Users } from "../models/users.js";
 
 const register = async (req, res) => {
-  const { email, password } = req.body;
+  const { email, password, phone } = req.body;
   const user = await Users.findOne({ email });
   const checkPhone = await Users.findOne({ phone });
   if (user) {
