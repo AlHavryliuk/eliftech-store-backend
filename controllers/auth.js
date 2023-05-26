@@ -8,8 +8,12 @@ import { Users } from "../models/users.js";
 const register = async (req, res) => {
   const { email, password } = req.body;
   const user = await Users.findOne({ email });
+  const checkPhone = await Users.findOne({ phone });
   if (user) {
     throw HttpError(409, "Email is already registered");
+  }
+  if (checkPhone) {
+    throw HttpError(409, "This phone is already registered");
   }
   const hashPassword = await bcrypt.hash(password, 10);
   const newUser = await Users.create({

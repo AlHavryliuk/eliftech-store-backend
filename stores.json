@@ -4,44 +4,44 @@
     "backdrop": "https://th.bing.com/th/id/R.4582d2456c7e2ece5d57cac624041c07?rik=IAeN1ivZUpqgVw&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f5%2fMcdonalds-Logo-Transparent-PNG.png&ehk=lu%2b986lIypZLKZdNIVmbfexO37M7gY6WMSvu8tb2yAs%3d&risl=&pid=ImgRaw&r=0",
     "foodList": [
       {
-        "name": "Блюдо 1",
+        "name": "Burger XXL",
         "price": 10.99,
-        "image": "url_картинки_блюда1"
+        "image": null
       },
       {
-        "name": "Блюдо 2",
+        "name": "Burger L",
         "price": 8.99,
-        "image": "url_картинки_блюда2"
+        "image": null
       },
       {
-        "name": "Блюдо 3",
+        "name": "Coffee S",
         "price": 12.99,
-        "image": "url_картинки_блюда3"
+        "image": null
       },
       {
-        "name": "Блюдо 1",
+        "name": "Coffee L",
         "price": 10.99,
-        "image": "url_картинки_блюда1"
+        "image": null
       },
       {
-        "name": "Блюдо 3",
+        "name": "MacFlurry L",
         "price": 12.99,
-        "image": "url_картинки_блюда3"
+        "image": null
       },
       {
-        "name": "Блюдо 1",
+        "name": "Cake",
         "price": 10.99,
-        "image": "url_картинки_блюда1"
+        "image": null
       },
       {
-        "name": "Блюдо 2",
+        "name": "Burger M",
         "price": 8.99,
-        "image": "url_картинки_блюда2"
+        "image": null
       },
       {
-        "name": "Блюдо 3",
+        "name": "Burger Child",
         "price": 12.99,
-        "image": "url_картинки_блюда3"
+        "image": null
       }
     ]
   },
@@ -50,34 +50,34 @@
     "backdrop": "https://th.bing.com/th/id/R.b002d1fd67ec16fd56c2682020bb0b79?rik=ubV30ffVVvT7oA&pid=ImgRaw&r=0",
     "foodList": [
       {
-        "name": "Блюдо 1",
+        "name": "Burger King S",
         "price": 10.99,
-        "image": "url_картинки_блюда1"
+        "image": null
       },
       {
-        "name": "Блюдо 2",
+        "name": "Burger Pro",
         "price": 8.99,
-        "image": "url_картинки_блюда2"
+        "image": null
       },
       {
-        "name": "Блюдо 3",
+        "name": "Burger 2x",
         "price": 12.99,
-        "image": "url_картинки_блюда3"
+        "image": null
       },
       {
-        "name": "Блюдо 1",
+        "name": "Burger 3x",
         "price": 10.99,
-        "image": "url_картинки_блюда1"
+        "image": null
       },
       {
-        "name": "Блюдо 2",
+        "name": "Fanta",
         "price": 8.99,
-        "image": "url_картинки_блюда2"
+        "image": null
       },
       {
-        "name": "Блюдо 3",
+        "name": "Sprite",
         "price": 12.99,
-        "image": "url_картинки_блюда3"
+        "image": null
       }
     ]
   },
@@ -86,34 +86,34 @@
     "backdrop": "https://logos-world.net/wp-content/uploads/2020/04/KFC-Logo.png",
     "foodList": [
       {
-        "name": "Блюдо 1",
+        "name": "Burger King S",
         "price": 10.99,
-        "image": "url_картинки_блюда1"
+        "image": null
       },
       {
-        "name": "Блюдо 2",
+        "name": "Chicken S",
         "price": 8.99,
-        "image": "url_картинки_блюда2"
+        "image": null
       },
       {
-        "name": "Блюдо 3",
+        "name": "Chicken L",
         "price": 12.99,
-        "image": "url_картинки_блюда3"
+        "image": null
       },
       {
-        "name": "Блюдо 1",
+        "name": "Chicken F",
         "price": 10.99,
-        "image": "url_картинки_блюда1"
+        "image": null
       },
       {
-        "name": "Блюдо 2",
+        "name": "Coffe Large",
         "price": 8.99,
-        "image": "url_картинки_блюда2"
+        "image": null
       },
       {
-        "name": "Блюдо 3",
+        "name": "Ice Cream",
         "price": 12.99,
-        "image": "url_картинки_блюда3"
+        "image": null
       }
     ]
   }

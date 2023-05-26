@@ -1,52 +1,170 @@
 [
   {
+    "name": "McDonald's",
+    "backdrop": "https://th.bing.com/th/id/R.4582d2456c7e2ece5d57cac624041c07?rik=IAeN1ivZUpqgVw&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f5%2fMcdonalds-Logo-Transparent-PNG.png&ehk=lu%2b986lIypZLKZdNIVmbfexO37M7gY6WMSvu8tb2yAs%3d&risl=&pid=ImgRaw&r=0",
+    "foodList": [
+      {
+        "name": "Burger XXL",
+        "price": 10.99,
+        "image": "https://th.bing.com/th/id/OIP.gDVXl1o4_1-aWZs5OC9PsAHaGH?w=215&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7"
+      },
+      {
+        "name": "Burger L",
+        "price": 8.99,
+        "image": "https://th.bing.com/th/id/R.b54d8efb827bf33a4867f06dae2c8f74?rik=C2LBOOWLhcPJYg&pid=ImgRaw&r=0"
+      },
+      {
+        "name": "Coffee S",
+        "price": 12.99,
+        "image": null
+      },
+      {
+        "name": "Coffee L",
+        "price": 10.99,
+        "image": null
+      },
+      {
+        "name": "MacFlurry L",
+        "price": 12.99,
+        "image": null
+      },
+      {
+        "name": "Cake",
+        "price": 10.99,
+        "image": null
+      },
+      {
+        "name": "Burger M",
+        "price": 8.99,
+        "image": null
+      },
+      {
+        "name": "Burger Child",
+        "price": 12.99,
+        "image": null
+      }
+    ]
+  },
+  {
+    "name": "Burger King",
+    "backdrop": "https://th.bing.com/th/id/R.b002d1fd67ec16fd56c2682020bb0b79?rik=ubV30ffVVvT7oA&pid=ImgRaw&r=0",
+    "foodList": [
+      {
+        "name": "Burger King S",
+        "price": 10.99,
+        "image": null
+      },
+      {
+        "name": "Burger Pro",
+        "price": 8.99,
+        "image": null
+      },
+      {
+        "name": "Burger 2x",
+        "price": 12.99,
+        "image": null
+      },
+      {
+        "name": "Burger 3x",
+        "price": 10.99,
+        "image": null
+      },
+      {
+        "name": "Fanta",
+        "price": 8.99,
+        "image": null
+      },
+      {
+        "name": "Sprite",
+        "price": 12.99,
+        "image": null
+      }
+    ]
+  },
+  {
+    "name": "KFC",
+    "backdrop": "https://logos-world.net/wp-content/uploads/2020/04/KFC-Logo.png",
+    "foodList": [
+      {
+        "name": "Burger King S",
+        "price": 10.99,
+        "image": null
+      },
+      {
+        "name": "Chicken S",
+        "price": 8.99,
+        "image": null
+      },
+      {
+        "name": "Chicken L",
+        "price": 12.99,
+        "image": null
+      },
+      {
+        "name": "Chicken F",
+        "price": 10.99,
+        "image": null
+      },
+      {
+        "name": "Coffe Large",
+        "price": 8.99,
+        "image": null
+      },
+      {
+        "name": "Ice Cream",
+        "price": 12.99,
+        "image": null
+      }
+    ]
+  },
+  {
     "name": "Buffet",
     "backdrop": "https://example.com/tasty-burgers-backdrop.jpg",
     "foodList": [
       {
         "name": "Bowarskaya Pizza",
         "price": 4.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Meat Pizza",
         "price": 5.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Okroshka ",
         "price": 6.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Veggie Burger",
         "price": 3.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Double Bacon Cheeseburger",
         "price": 7.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Fish Fillet Sandwich",
         "price": 4.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Mushroom Swiss Burger",
         "price": 6.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Grilled Chicken Wrap",
         "price": 5.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Onion Rings",
         "price": 2.99,
-        "image": "null"
+        "image": null
       }
     ]
   },
@@ -57,47 +175,47 @@
       {
         "name": "Classic Cheeseburger",
         "price": 4.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Spicy Chicken Sandwich",
         "price": 5.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "BBQ Bacon Burger",
         "price": 6.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Veggie Burger",
         "price": 3.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Double Bacon Cheeseburger",
         "price": 7.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Fish Fillet Sandwich",
         "price": 4.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Mushroom Swiss Burger",
         "price": 6.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Grilled Chicken Wrap",
         "price": 5.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Onion Rings",
         "price": 2.99,
-        "image": "null"
+        "image": null
       }
     ]
   },
@@ -108,42 +226,42 @@
       {
         "name": "Original Recipe Chicken",
         "price": 9.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Hot and Spicy Wings",
         "price": 7.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Crispy Chicken Tenders",
         "price": 6.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Chicken Popcorn",
         "price": 4.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Honey BBQ Chicken",
         "price": 8.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Spicy Drumsticks",
         "price": 5.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Cajun Chicken Sandwich",
         "price": 6.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Chicken Caesar Salad",
         "price": 7.99,
-        "image": "null"
+        "image": null
       }
     ]
   },
@@ -154,37 +272,37 @@
       {
         "name": "Pepperoni Pizza",
         "price": 11.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Vegetarian Pizza",
         "price": 10.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Hawaiian Pizza",
         "price": 12.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "BBQ Chicken Pizza",
         "price": 13.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Margherita Pizza",
         "price": 9.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Meat Lovers Pizza",
         "price": 14.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Supreme Pizza",
         "price": 12.99,
-        "image": "null"
+        "image": null
       }
     ]
   },
@@ -195,37 +313,37 @@
       {
         "name": "Chocolate Chip Cookies",
         "price": 2.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Vanilla Cupcake",
         "price": 3.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Strawberry Cheesecake",
         "price": 5.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Double Chocolate Brownie",
         "price": 4.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Mint Chocolate Chip Ice Cream",
         "price": 6.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Caramel Popcorn",
         "price": 3.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Fruit Parfait",
         "price": 4.99,
-        "image": "null"
+        "image": null
       }
     ]
   },
@@ -236,37 +354,37 @@
       {
         "name": "Caesar Salad",
         "price": 7.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Greek Salad",
         "price": 8.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Caprese Salad",
         "price": 9.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Spinach Salad",
         "price": 6.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Cobb Salad",
         "price": 8.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Chicken Caesar Salad",
         "price": 9.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Mediterranean Salad",
         "price": 7.99,
-        "image": "null"
+        "image": null
       }
     ]
   },
@@ -277,37 +395,37 @@
       {
         "name": "Orange Juice",
         "price": 3.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Apple Juice",
         "price": 3.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Grapefruit Juice",
         "price": 4.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Lemonade",
         "price": 2.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Watermelon Juice",
         "price": 4.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Pineapple Juice",
         "price": 3.99,
-        "image": "null"
+        "image": null
       },
       {
         "name": "Cranberry Juice",
         "price": 3.99,
-        "image": "null"
+        "image": null
       }
     ]
   }
